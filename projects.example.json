@@ -1,0 +1,13 @@
+[
+  {
+    "app": "http://localhost:3000",
+    "repo": "https://github.com/you/project-one",
+    "live": "https://project-one.vercel.app"
+  },
+  {
+    "app": "https://project-two.vercel.app",
+    "repo": "../project-two",
+    "click": "text=Dashboard",
+    "wait": 1500
+  }
+]

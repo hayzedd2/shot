@@ -1,0 +1,10 @@
+{
+  "name": "shot",
+  "version": "0.1.0",
+  "description": "One command: screenshot an app, update the repo README, commit and push.",
+  "type": "module",
+  "bin": { "shot": "./shot.mjs" },
+  "scripts": { "postinstall": "playwright install chromium" },
+  "dependencies": { "playwright": "^1.49.0" },
+  "license": "MIT"
+}
